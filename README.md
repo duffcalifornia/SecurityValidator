@@ -115,7 +115,7 @@ If you write your recipes using XML, add the following XML block to a local over
     <key>Arguments</key>
     <dict>
         <key>file_path</key>
-        <string>%RECIPE_CACHE_DIR%/%NAME%/Example.app</string>
+        <string>%RECIPE_CACHE_DIR%/%NAME%/downloads</string>
         <key>id_file</key>
         <string>/path/to/your/team_ids.txt</string>
         <key>fail_on_world_writable</key>
