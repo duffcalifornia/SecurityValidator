@@ -88,7 +88,7 @@ The processor is designed to be run either as part of a larger AutoPkg automatio
 
 If you want to run the processor as a standalone script, you will run the following commands in Terminal:
 
-`PYTHONPATH="/Library/AutoPkg" /usr/local/autopkg/python /path/to/SecurityValidator.py --file_path /path/to/downloaded/installer --id_file /path/to/team_ids.txt`
+`PYTHONPATH="/Library/AutoPkg" /usr/local/autopkg/python /path/to/SecurityValidator.py --file_path /path/to/folder/containing/downloaded/installer --id_file /path/to/team_ids.txt`
 
 When you run the processor on its own, it will tell you whether the .pkg/.app has been successfully notarized by Apple or not, and if all found Developer ID(s) exist in team_ids.txt.
 
