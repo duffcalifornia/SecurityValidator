@@ -39,3 +39,5 @@ Process:
       # Optional: toggle security strictness
       fail_on_world_writable: true
 ```
+
+For more information on the threat model the processor is helping protect against, platform limitations, architecture and design decisions, and other configuration options, see the [wiki](https://github.com/duffcalifornia/SecurityValidator/wiki).
